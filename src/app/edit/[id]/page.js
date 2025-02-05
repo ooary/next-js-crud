@@ -8,10 +8,6 @@ export default async function Page({ params }) {
   return (
     <>
       <div className="space-y-2 p-5">
-        <div>
-          <h3>{data.stock}</h3>
-          <h3>{data.content}</h3>
-        </div>
         <EditItem data={data} />
       </div>
     </>
